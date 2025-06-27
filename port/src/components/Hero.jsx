@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
-import { photo } from "../assets"; // Replace with your actual photo import
+import { FaXTwitter } from "react-icons/fa6";
+import { photo } from "../assets";
 
 const Hero = () => {
   return (
@@ -72,15 +73,25 @@ const Hero = () => {
             className="flex flex-wrap justify-center md:justify-start gap-4 pt-2"
           >
             <a
-              href="/your-cv.pdf"
+              href="/Aishwarya_Resume.pdf"
               download
-              className="px-5 py-2.5 bg-white text-purple-700 font-semibold rounded-full hover:bg-yellow-300 hover:-translate-y-1 transition-all duration-300"
+              className="flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-yellow-300 to-yellow-400 text-black font-semibold rounded-full shadow-md hover:shadow-yellow-400/50 transition-all duration-300 hover:-translate-y-1"
             >
               Download CV
             </a>
+
+            <a
+              href="/Aishwarya_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-2.5 border border-white text-white font-semibold rounded-full hover:bg-white hover:text-purple-700 hover:-translate-y-1 transition-all duration-300"
+            >
+              View Online
+            </a>
+
             <a
               href="#contact"
-              className="px-5 py-2.5 border border-white text-white font-semibold rounded-full hover:bg-white hover:text-purple-700 hover:-translate-y-1 transition-all duration-300"
+              className="px-5 py-2.5 border border-yellow-300 text-yellow-300 font-semibold rounded-full hover:bg-yellow-300 hover:text-black hover:-translate-y-1 transition-all duration-300"
             >
               Contact Me
             </a>
@@ -93,14 +104,17 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1.3 }}
             className="flex gap-6 pt-6 justify-center md:justify-start"
           >
-            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Aishwarya011k" target="_blank" rel="noreferrer">
               <Github className="w-6 h-6 transition-transform duration-300 hover:text-yellow-300 hover:scale-125" />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer">
+            <a href="https://linkedin.com/in/aishwarya-d-963867341" target="_blank" rel="noreferrer">
               <Linkedin className="w-6 h-6 transition-transform duration-300 hover:text-yellow-300 hover:scale-125" />
             </a>
-            <a href="mailto:you@example.com">
+            <a href="mailto:aishwaryadev011@gmail.com">
               <Mail className="w-6 h-6 transition-transform duration-300 hover:text-yellow-300 hover:scale-125" />
+            </a>
+            <a href="https://x.com/AishwaryaD3164?t=RXjwr2EURgB2w1BWGPusKw" target="_blank" rel="noreferrer">
+              <FaXTwitter className="w-6 h-6 transition-transform duration-300 hover:text-yellow-300 hover:scale-125" />
             </a>
           </motion.div>
         </div>

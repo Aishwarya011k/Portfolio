@@ -1,13 +1,22 @@
 import React from "react";
+import { useState } from "react";
+import Preloader from "./components/Preloader";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import ProjectSection from "./components/ProjectSection";
 import EventSection from "./components/EventSection";
 import ContactSection from "./components/ContactSection";
-import Footer from "./components/Footer";
+
 const App = () => {
+   const [loading, setLoading] = useState(true);
+
   return (
+    <>
+      {loading ? (
+        <Preloader onFinish={() => setLoading(false)} />
+      ) :
+  (
     <div className="relative min-h-screen w-full overflow-x-hidden bg-gradient-to-br from-purple-800 via-pink-600 to-orange-500">
       {/* Optional Animated Background Blobs */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
@@ -23,11 +32,11 @@ const App = () => {
       <ProjectSection />
       <EventSection />
       <ContactSection />
-      <Footer />
-
+    
       {/* Footer */}
     </div>
+   )}
+    </>
   );
-};
-
+;}
 export default App;

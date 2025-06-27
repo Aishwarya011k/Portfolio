@@ -110,7 +110,7 @@ const Hero = () => {
             <a href="https://linkedin.com/in/aishwarya-d-963867341" target="_blank" rel="noreferrer">
               <Linkedin className="w-6 h-6 transition-transform duration-300 hover:text-yellow-300 hover:scale-125" />
             </a>
-            <a href="mailto:aishwaryadev011@gmail.com">
+            <a href="mailto:aishwaryadshetty019@gmail.com">
               <Mail className="w-6 h-6 transition-transform duration-300 hover:text-yellow-300 hover:scale-125" />
             </a>
             <a href="https://x.com/AishwaryaD3164?t=RXjwr2EURgB2w1BWGPusKw" target="_blank" rel="noreferrer">

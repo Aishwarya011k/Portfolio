@@ -172,7 +172,7 @@ const ContactSection = () => {
             <FaLinkedin />
           </a>
           <a
-            href="mailto:aishwaryadev011@gmail.com"
+            href="mailto:aishwaryadshetty019@gmail.com"
             className="text-yellow-300 text-xl hover:text-yellow-400 transition"
           >
             <FaEnvelope />

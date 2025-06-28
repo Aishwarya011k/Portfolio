@@ -189,7 +189,7 @@ const ContactSection = () => {
 
         <p className="text-yellow-300 font-semibold text-sm">
           © {new Date().getFullYear()}{" "}
-          <span className="underline underline-offset-4">Designed by Aishwarya D</span> · Built with 💛 using React, Tailwind & AI
+          <span className="underline underline-offset-4">Designed by Aishwarya D</span> · Built with 💛 using React, Tailwind 
         </p>
       </footer>
     </section>

@@ -28,7 +28,7 @@ This repository contains the code and structure behind the website that showcase
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/your-portfolio-repo.git
+   git clone https://github.com/Aishwarya011k/Portfolio
    ```
 2. Install dependencies:
    ```bash
